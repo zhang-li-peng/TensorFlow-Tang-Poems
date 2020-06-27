@@ -1,31 +1,3 @@
-# -*- coding: utf-8 -*-
-# file: clean_cn.py
-# author: JinTian
-# time: 08/03/2017 8:02 PM
-# Copyright 2017 JinTian. All Rights Reserved.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-# ------------------------------------------------------------------------
-"""
-this script using for clean Chinese corpus.
-you can set level for clean, i.e.:
-level='all', will clean all character that not Chinese, include punctuations
-level='normal', this will generate corpus like normal use, reserve alphabets and numbers
-level='clean', this will remove all except Chinese and Chinese punctuations
-
-besides, if you want remove complex Chinese characters, just set this to be true:
-simple_only=True
-"""
 import numpy as np
 import os
 import string
